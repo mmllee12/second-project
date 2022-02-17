@@ -11,6 +11,7 @@ const openmodal = function () {
 }
 
 for (let i = 0; i < btnsopenmodel.length; i++)
+
     btnsopenmodel[i].addEventListener('click', openmodal);
 
 const closemodal = function () {
